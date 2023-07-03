@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatar SDK : Integrate MetaPerson Creator to any place</title>
+    <link rel="shortcut icon" href="assests/favicon.svg" type="image/x-icon" />
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Tailwind CSS Link -->
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="flex justify-between text-white px-14 py-5">
+      <!-- Nav-logo -->
+      <div id="logo_group">
+        <img src="assests/logo.svg" alt="logo" />
+      </div>
+      <!-- btn-menu-group -->
+      <div class="menu_group py-1">
+        <ul class="menu flex gap-4">
+          <li>
+            Product
+            <img src="assests/angle down.svg" alt="angle-down" class="inline" />
+          </li>
+
+          <li>Pricing</li>
+          <li>FAQ</li>
+          <li>
+            Company
+            <img src="assests/angle down.svg" alt="angle-down" class="inline" />
+          </li>
+          <li><i class="fa-brands fa-discord"></i> Discord</li>
+        </ul>
+      </div>
+      <!-- Navbar-btn-group -->
+      <div class="btn_group flex gap-4">
+        <div class="signin py-1">
+          <button>Sign In</button>
+        </div>
+        <div
+          class="signup bg-[#FFFFFF33] px-5 rounded-full justify-center items-center py-1"
+        >
+          <button>Sign Up</button>
+        </div>
+        <div class="lang border border-[#FFFFFF33] px-5 p-1 rounded-full">
+          <button>EN 漢語</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="px-14 py-5">
+      <!-- Hero text -->
+      <div class="hero-text text-white font-bold flex flex-col gap-10">
+        <h1 class="text-center text-[44px] w-[626px] m-auto leading-[55px]">
+          Recognizable MetaPerson avatars built from selfies
+        </h1>
+        <!-- Hero Sub-heading -->
+        <p class="text-[24px] opacity-60 w-[915px] m-auto">
+          Elevate your product to new heights by seamlessly integrating lifelike
+          avatars. With MetaPerson, you can offer your users an immersive and
+          personalized experience like never before
+        </p>
+      </div>
+      <!-- Hero Img Container -->
+      <div class="img_container">
+        <img src="./assests/hero.svg" alt="hero" class="w-[1124px] h-[720px]" />
+      </div>
+      <!-- Hero CTA btn -->
+      <div class="btn_container text-white flex gap-5 justify-center">
+        <div class="btn_create px-[24px] py-[16px] rounded-lg">
+          <button class="text-[16px] font-bold">Create an avatar</button>
+        </div>
+        <div class="develop_btn px-[24px] py-[16px]">
+          <button class="font-bold">
+            <img
+              src="assests/devices.svg"
+              alt="angle-down"
+              class="inline mr-1"
+            />
+            Developer sign-up
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Trusted Company Section -->
+    <setion
+      id="compnay"
+      class="flex justify-evenly w-[767.9px] h-[40px] m-auto mt-4 items-center py-14"
+    >
+      <div>
+        <img src="./assests/compnay-1.svg" alt="compnay-1" />
+      </div>
+      <div>
+        <img src="./assests/compnay-2.svg" alt="compnay-2" />
+      </div>
+      <div>
+        <img src="./assests/compnay-3.svg" alt="compnay-3" />
+      </div>
+      <div>
+        <img src="./assests/compnay-4.svg" alt="compnay-4" />
+      </div>
+      <div>
+        <img src="./assests/compnay-5.svg" alt="compnay-5" />
+      </div>
+    </setion>
+
+    <!-- Section Integration  -->
+    <section id="intergration" class="px-14 py-5 flex">
+      <!-- Intergartion Icon Container -->
+      <div
+        class="icon_container font-bold text-white grid grid-rows-2 grid-flow-col gap-4 w-[50%] p-14"
+      >
+        <div class="bg-[#FFFFFF33] p-7 rounded-lg w-[246px]">
+          <img
+            src="./assests/web-icon.svg"
+            alt="web-icon"
+            class="mb-4 w-[69.23px] h-[45px]"
+          />
+          <p>Web</p>
+        </div>
+        <div class="bg-[#FFFFFF33] p-7 rounded-lg w-[246px]">
+          <img src="./assests/appleicon.svg" alt="apple-icon" />
+          <p>iOS</p>
+        </div>
+        <div class="bg-[#FFFFFF33] p-7 rounded-lg w-[246px]">
+          <img src="./assests/unity-icon.svg" alt="unity-icon" />
+          <p>Unity</p>
+        </div>
+        <div class="bg-[#FFFFFF33] p-7 rounded-lg w-[246px]">
+          <img src="./assests/unreal-icon.svg" alt="unreal icon" />
+          <p>Unreal Engine</p>
+        </div>
+      </div>
+      <!-- Integration Text -->
+
+      <div class="feature_text p-14 flex flex-col gap-[4.7rem]">
+        <div class="text_content text-white font-bold flex flex-col gap-4">
+          <h1 class="text-[40px] leading-[50px]">
+            Easy integration <br />
+            to your apps
+          </h1>
+          <p class="opacity-30">
+            We provide ready sample projects for popular target platforms
+          </p>
+        </div>
+        <!-- Intergarion BTN Conatiner -->
+        <div class="btn_container text-white flex gap-5">
+          <div class="btn_create px-[24px] py-[16px] rounded-lg">
+            <button class="text-[16px] font-bold">Sign up as Developer</button>
+          </div>
+          <div class="develop_btn px-[24px] py-[16px]">
+            <button class="font-bold">
+              <img
+                src="assests/docs.svg"
+                alt="angle-down"
+                class="inline mr-1"
+              />
+              Read the docs
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How it works Container Section -->
+    <section id="how_it_works_section" class="px-14 py-5">
+      <div
+        class="how_it_works_section-text text-white font-bold flex flex-col gap-10"
+      >
+        <!-- How it works heading -->
+        <h1 class="text-center text-[44px] w-[626px] m-auto leading-[55px]">
+          Integrate MetaPerson Creator to any place
+        </h1>
+        <!-- How it works Sub-heading -->
+        <p class="text-[24px] opacity-60 w-[915px] m-auto">
+          Stand out from the competition and create a product that truly
+          captivates your audience with lifelike MetaPerson avatars
+        </p>
+      </div>
+      <!-- How it works conatiner -->
+      <div class="how_it_works_section-image_container p-14">
+        <div
+          class="how_it_works_section-text-content pt-20 px-20 bg-[#FFFFFF33] rounded-lg text-white font-bold text-center h-auto"
+        >
+          <div class="instructions flex">
+            <!-- First Instruction -->
+            <div class="first_instruction relative">
+              <img src="./assests/black-box.svg" alt="box" class="m-auto" />
+              <img src="./assests/ipod-icon.svg" alt="icon" />
+
+              <h3>Take a selfie</h3>
+              <p>Or pick from a selection of pre-made avatars</p>
+            </div>
+            <img src="/assests/line.svg" alt="line" class="inline mb-[6rem]" />
+            <!-- Second Instruction -->
+            <div class="second_instruction relative">
+              <img src="./assests/black-box.svg" alt="box" class="m-auto" />
+
+              <img src="./assests/ipod-icon.svg" alt="icon" />
+
+              <h3>Take a selfie</h3>
+              <p>Or pick from a selection of pre-made avatars</p>
+            </div>
+            <img src="/assests/line.svg" alt="line" class="inline mb-[6rem]" />
+            <!-- Third Instruction -->
+            <div class="third_instruction relative">
+              <img src="./assests/black-box.svg" alt="box" class="m-auto" />
+
+              <img src="./assests/ipod-icon.svg" alt="icon" />
+
+              <h3>Take a selfie</h3>
+              <p class="">Or pick from a selection of pre-made avatars</p>
+            </div>
+          </div>
+          <!-- Demo Img Container -->
+          <div class="img_conatiner mt-10">
+            <img src="./assests/avatar.svg" alt="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

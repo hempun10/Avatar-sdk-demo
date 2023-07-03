@@ -1,0 +1,7 @@
+body {
+  background: rgba(16, 30, 116, 1);
+}
+.btn_create {
+  background: linear-gradient(102.67deg, #f5841b 0%, #ff4b38 99.48%);
+  padding: 16px, 24px, 14px, 24px;
+}
